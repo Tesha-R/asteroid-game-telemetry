@@ -1,0 +1,50 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.score-el,
+.btn,
+.game-over {
+  position: absolute;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.score-el {
+  right: 20px;
+  top: 20px;
+
+}
+
+.btn,
+.game-over {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+}
+
+.game-over {
+  top: 40vh;
+}
+
+.btn {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  top: 50vh;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
