@@ -3,6 +3,9 @@ require('dotenv').config();
 
 // Load tracing setup to initialize Honeycomb OpenTelemetry
 require('./tracing');
+require('./client-side-tracing');
+require('./document-load-tracing');
+require('./user-interactions-tracing');
 
 const express = require('express');
 const path = require('path');
