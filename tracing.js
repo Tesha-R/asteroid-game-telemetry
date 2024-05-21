@@ -1,7 +1,5 @@
-// Example filename: tracing.js
+// tracing.js
 'use strict';
-
-require('dotenv').config();
 
 const { HoneycombSDK } = require('@honeycombio/opentelemetry-node');
 const {
