@@ -14,7 +14,13 @@ const app = express();
 const PORT = process.env.PORT;
 
 // Serve all files in the 'public' directory, which includes HTML, JS, CSS, etc.
-app.use(express.static('public'));
+// app.use(express.static('public'));ç
+
+// Serve all files in the 'public' directory, which includes HTML, JS, CSS, etc.
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Serve the bundled JavaScript files
+app.use('/dist', express.static(path.join(__dirname, 'public/dist')));
 
 // Catch-all route to serve the main game HTML
 // Handles all GET requests that aren't explicitly handled by other routes

@@ -1,6 +1,33 @@
+# Node modules directory
+node_modules/
 
-node_modules
+# Environment variables file
 .env
+
+# macOS specific file
 .DS_Store
 
+# Notes file
 notes.md
+
+# Log files
+*.log
+npm-debug.log*
+
+# Webpack output directory
+public/dist/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Babel cache
+.babelrc
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating system-specific files
+Thumbs.db
