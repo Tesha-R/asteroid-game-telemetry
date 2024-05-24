@@ -1,4 +1,7 @@
 // client-side-tracing.js
+
+require('dotenv').config();
+
 import { HoneycombWebSDK } from '@honeycombio/opentelemetry-web';
 import { getWebAutoInstrumentations } from '@opentelemetry/auto-instrumentations-web';
 
