@@ -3,6 +3,11 @@ import { Shooter } from './Shooter.js';
 import { Asteroid } from './Asteroid.js';
 import { context, canvas } from './CanvasUtil.js';
 
+import './client-side-tracing';
+import './client-side-tracing';
+import './document-load-tracing';
+import './user-interactions-tracing';
+
 // Game UI elements
 let gameOverTxt = document.getElementById('gameOver');
 let restartButton = document.getElementById('restartButton'); // Create this in your HTML
