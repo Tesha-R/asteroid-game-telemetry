@@ -1,6 +1,6 @@
-import { DocumentLoadInstrumentation } from '@opentelemetry/instrumentation-document-load';
+// document-load-tracing.js
 
-// ...general opentelemetry configuration
+import { DocumentLoadInstrumentation } from '@opentelemetry/instrumentation-document-load';
 
 registerInstrumentations({
   instrumentations: [new DocumentLoadInstrumentation()],

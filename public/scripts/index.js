@@ -3,9 +3,12 @@ import { Shooter } from './Shooter.js';
 import { Asteroid } from './Asteroid.js';
 import { context, canvas } from './CanvasUtil.js';
 
+// Browser Data with Honeycomb Web Instrumentation
 import '../../client-side-tracing.js';
-// import './document-load-tracing';
-// import './user-interactions-tracing';
+
+// Document load and user interactions tracing
+import '../../document-load-tracing';
+import '../../user-interactions-tracing';
 
 // Game UI elements
 let gameOverTxt = document.getElementById('gameOver');
